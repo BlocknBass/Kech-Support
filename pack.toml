@@ -1,0 +1,13 @@
+name = "KreetCraft"
+author = "spectrapulse"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "d5487d0051a41fdcf6691a8772f39014d49963b4fdeede9b230307d9ee04babd"
+
+[versions]
+fabric = "0.14.12"
+minecraft = "1.18.2"
