@@ -3,13 +3,25 @@
   <head>
     <title>KECH SUPPORT</title>
     <meta author="Smerige Jochies Enterprises" />
-    <link rel="icon" type="image/x-icon" href="img/delletje.png">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="img/delletje.png" />
+    <style>
+      * {
+        cursor: url("../img/delletje.png") 2 2, auto;
+        font-family: Impact;
+        font-weight: bold;
+        color: blueviolet;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+
+      img {
+        filter: invert(1);
+      }
+    </style>
     <script>
       document.addEventListener("click", () => {
         new Audio(
           "https://cdn.spectrapulse.io/share/2023/01/1673212024.wav"
-        ).play()();
+        ).play();
         navigator.clipboard.writeText(
           "https://www.ah.nl/producten/product/wi230720/ah-frikandelbroodje"
         );
