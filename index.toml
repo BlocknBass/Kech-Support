@@ -1,26 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "a0ee746064b06d09cab0768116ec265fd0d45261d4087c9ad2c698a07c7aac0e"
-
-[[files]]
-file = "README.md"
-hash = "4214331c1cba2a266e64ad152af7267592bb1ee82ed0b2a17f2c7bc4659a0b19"
-
-[[files]]
-file = "img/588b57fc-5afb-4cfd-ac47-812244b5f1ff.jpg"
-hash = "c510afc676bab524a7913141ea86ffc9bdc2bf4723b3c68ba8dd1388276fca42"
-
-[[files]]
-file = "img/delletje.png"
-hash = "2d269a1b009d99c378e86b958df71558c82a66bb54e3c421bb679985dfdae24e"
-
-[[files]]
-file = "index.html"
-hash = "38179ba402e175d5d2c0048e77fdbf35821db25261ed77f48ec54b2db02989b6"
-
-[[files]]
 file = "mods/advancementinfo.pw.toml"
 hash = "46de5114d8a0017b14c0f6b63401fc7a1cb69b0dce336d36e25e80e91b51319b"
 metafile = true
