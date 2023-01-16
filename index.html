@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>KECH SUPPORT</title>
     <meta author="Smerige Jochies Enterprises" />
     <link rel="icon" type="image/x-icon" href="img/delletje.png" />
     <style>
-      * {
-        cursor: url("../img/delletje.png") 2 2, auto;
-        font-family: Impact;
-        font-weight: bold;
-        color: blueviolet;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-      }
+        * {
+            cursor: url("../img/delletje.png") 2 2, auto;
+            font-family: Impact;
+            font-weight: bold;
+            color: blueviolet;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
 
-      img {
-        filter: invert(1);
-      }
+        img {
+            filter: invert(1);
+        }
     </style>
     <script>
-      document.addEventListener("click", () => {
-        new Audio(
-          "https://cdn.spectrapulse.io/share/2023/01/1673212024.wav"
-        ).play();
-        navigator.clipboard.writeText(
-          "https://www.ah.nl/producten/product/wi230720/ah-frikandelbroodje"
-        );
-      });
+        let bruh = 0;
+        let hurb = 0;
+        document.addEventListener("click", () => {
+            bruh++;
+            hurb = Math.floor(Math.random() * 3) + 1
+            if (bruh % 4 === 0) {
+                switch (hurb) {
+                    case 1:
+                        new Audio(
+                            "/Kech-Support/audio/octaaf.wav"
+                        ).play();
+                        break;
+                    case 2:
+                        new Audio(
+                            "/Kech-Support/audio/octaaf.wav"
+                        ).play();
+                        break;
+                    case 3:
+                        new Audio(
+                            "/Kech-Support/audio/octaaf.wav"
+                        ).play();
+                        break;
+                }
+            } else {
+                new Audio("https://cdn.spectrapulse.io/share/2023/01/1673212024.wav").play();
+            }
+            navigator.clipboard.writeText(
+                "https://www.ah.nl/producten/product/wi230720/ah-frikandelbroodje"
+            );
+        });
     </script>
-  </head>
+</head>
 
-  <body id="saus">
+<body id="saus">
     <h1>kanker</h1>
     <img src="img/588b57fc-5afb-4cfd-ac47-812244b5f1ff.jpg" />
     <a href="https://drinkdelivery.nl/product/smirnoff-ice-70cl/">
         zwakke speler delivery service
     </a>
-  </body>
+</body>
+
+</html>
+</body>
+
 </html>
