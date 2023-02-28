@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="img/delletje.png" />
     <style>
         * {
-            cursor: url("../img/delletje.png") 2 2, auto;
+            cursor: url("./img/delletje.png") 2 2, auto;
             font-family: Impact;
             font-weight: bold;
             color: blueviolet;
@@ -17,6 +17,8 @@
         img {
             filter: invert(1);
         }
+
+        audio { display: none; }
     </style>
     <script>
         let bruh = 0;
@@ -58,7 +60,21 @@
     <a href="https://drinkdelivery.nl/product/smirnoff-ice-70cl/">
         zwakke speler delivery service
     </a>
+    <button onclick="playAudio()">play me</button>
+    <audio id="somebody">
+        <source src="./audio/sombody.mp3" type="audio/mp3">
+    </audio>
 </body>
+<script>
+    setInterval(function(){
+        playAudio()
+    }, 1)
+
+    var somebody = document.getElementById("somebody");
+    function playAudio() {
+        somebody.play();
+    }
+</script>
 
 </html>
 </body>
