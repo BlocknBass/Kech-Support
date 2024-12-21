@@ -55,6 +55,7 @@
                 "https://www.ah.nl/producten/product/wi230720/ah-frikandelbroodje"
             );
         });
+        document.querySelectorAll("a").forEach((t=>{t.host===window.location.host||t.getAttribute("data-umami-event")||(t.setAttribute("data-umami-event","outbound-link-click"),t.setAttribute("data-umami-event-url",t.href))}));
     </script>
 </head>
 
